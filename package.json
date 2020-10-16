@@ -1,0 +1,22 @@
+{
+  "name": "com.archnet.module.localization",
+  "version": "1.0.1",
+  "displayName": "Arch Net Module Localization",
+  "description": "This module add a Localization management for your project",
+  "unity": "2020.1",
+  "unityRelease": "0b5",
+  "keywords": [
+    "Arch",
+    "ArchNet",
+    "Module",
+    "Localization",
+    "Custom"
+  ],
+  "author": {
+    "name": "Arch Net",
+    "email": "archnetmodule@gmail.com"
+  },
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.1"
+  }
+}

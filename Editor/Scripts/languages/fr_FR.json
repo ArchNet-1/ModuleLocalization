@@ -1,0 +1,78 @@
+{
+	"key_ShortCut_Spell": "Ouvrir le menu des sorts",
+	"key_ShortCut_Tower": "Ouvrir le menu des tours",
+	"key_ShortCut_Unit": "Ouvrir l'interface des unités",
+	"key_ShortCut_Upgrade": "Ouvrir l'interface des améliorations",
+
+	"key_ShortCut_Spell_Under_1": "Selectionner le Sort numéro 1",
+	"key_ShortCut_Spell_Under_2": "Selectionner le Sort numéro 2",
+	"key_ShortCut_Spell_Under_3": "Selectionner le Sort numéro 3",
+	"key_ShortCut_Spell_Under_4": "Selectionner le Sort numéro 4",
+
+	"key_ShortCut_Unit_Under_1": "Invoquer l'unité numéro 1",
+	"key_ShortCut_Unit_Under_2": "Invoquer l'unité numéro 2",
+	"key_ShortCut_Unit_Under_3": "Invoquer l'unité numéro 3",
+	"key_ShortCut_Unit_Under_4": "Invoquer l'unité numéro 4",
+
+	"key_ShortCut_Upgrade_Under_1": "Utiliser l'amélioration numéro 1",
+	"key_ShortCut_Upgrade_Under_2": "Utiliser l'amélioration numéro 2",
+	"key_ShortCut_Upgrade_Under_3": "Utiliser l'amélioration numéro 3",
+	"key_ShortCut_Upgrade_Under_4": "Utiliser l'amélioration numéro 4",
+
+	"key_ShortCut_Tower_Under_1": "Selectionner la Tour numéro 1",
+	"key_ShortCut_Tower_Under_2": "Selectionner la Tour  numéro 2",
+	"key_ShortCut_Tower_Under_3": "Selectionner la Tour  numéro 3",
+	"key_ShortCut_Tower_Under_4": "Selectionner la Tour  numéro 4",
+
+	"key_ShortCut_Runtime": "Afficher l'interface console",
+
+	"key_ShortCut_Title_Global": "Paramètres",
+	"key_ShortCut_Title_ShortCut": "Raccourcis",
+
+	"key_ShortCut_Catalysor_Red": "",
+	"key_ShortCut_Catalysor_Blue": "",
+	"key_ShortCut_Catalysor_Green": "",
+	"key_ShortCut_Catalysor_Orange": "",
+	"key_ShortCut_Catalysor_White": "",
+
+	"key_Settings_Resolution": "Resolution de l'écran",
+	"key_Settings_Resolution_Dropdown_1": "1920 x 1080",
+	"key_Settings_Resolution_Dropdown_2": "1600 × 900",
+	"key_Settings_Resolution_Dropdown_3": "1280 × 720",
+	"key_Settings_Resolution_Dropdown_4": "1024 × 576",
+	"key_Settings_Resolution_Dropdown_5": "640 × 360",
+
+	"key_Settings_Mode": "Mode d'affichage",
+	"key_Settings_Mode_Dropdown_1": "Plein écran",
+	"key_Settings_Mode_Dropdown_2": "Fenetré",
+	"key_Settings_Mode_Dropdown_3": "Plein écran fenetré",
+
+	"key_Settings_AA": "Anti aliasing",
+	"key_Settings_AA_Dropdown_1": "AA x2",
+	"key_Settings_AA_Dropdown_2": "AA x4",
+	"key_Settings_AA_Dropdown_3": "AA x8",
+
+	"key_Settings_Quality": "Qualité Graphique",
+	"key_Settings_Quality_Dropdown_1": "Très faible",
+	"key_Settings_Quality_Dropdown_2": "Faible",
+	"key_Settings_Quality_Dropdown_3": "Moyenne",
+	"key_Settings_Quality_Dropdown_4": "Elevé",
+	"key_Settings_Quality_Dropdown_5": "Très élevé",
+	"key_Settings_Quality_Dropdown_6": "Ultra",
+
+	"key_Settings_Music_Slider": "Volume de la musique",
+	"key_Settings_Music_Toggle": "Musique",
+	"key_Settings_Effect_Slider": "Volume des effets sonores",
+	"key_Settings_Effect_Toggle": "Effets sonores",
+
+	"key_Settings_Shadow_Level": "Niveau des ombres",
+	"key_Settings_Shadow_Level_Dropdown_1": "Faible",
+	"key_Settings_Shadow_Level_Dropdown_2": "Moyen",
+	"key_Settings_Shadow_Level_Dropdown_3": "Elevé",
+	"key_Settings_Shadow_Level_Dropdown_4": "Très élevé",
+
+	"key_Settings_Shadow_Mode": "Mode d'ombre",
+	"key_Settings_Shadow_Mode_Dropdown_1": "Desactivé",
+	"key_Settings_Shadow_Mode_Dropdown_2": "Forte ombre",
+	"key_Settings_Shadow_Mode_Dropdown_3": "Forte et faible ombre"
+}
