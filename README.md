@@ -6,7 +6,7 @@
     <img src="https://github.com/ArchNetModule/Stockage/blob/master/Images/ArchNetLogo.png" alt="Logo" width="300">
   </a>
 
-  <h3 align="center">Module Shadow</h3>
+  <h3 align="center">Module Localization</h3>
 </p>
 
 
@@ -45,7 +45,7 @@ That all folks !
 <!-- Usage -->
 ## usage
 
-This module is a simple project data displayer in runtime.
+This module is a simple localization manager for your project.
 
 Get the github HTTPS project url and load it in Unity Package Manager windows
 
@@ -58,16 +58,19 @@ in Unity : Windows -> Package Manager -> + -> Add package from git url
 
 2. Clone the repo
 
-3. Drag and drop Prefab "ModuleShadow"  from the package into a Canvas component
+3. Drag and drop Script "LocalizeDropLabel"  from the package into a gameobject who has a label component
 
-4. Join Module Traslate (optional)
+4. Select if you want to localize the component on start
 
-5. Launch scene
+5. Set your label component text with a key ( find key in Scripts / languages ) 
 
+6. Launch scene
+
+NB : Same process for a DROPDOWN component 
 
 [OPTIONAL]
 
-By default every text is on the format "key_", if you want to complete this module, add Module Translate and follow the module instuction.
+By default every text is on the format "key_"
 
 <!-- CONTACT -->
 ## Contact
