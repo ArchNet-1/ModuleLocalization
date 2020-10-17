@@ -1,6 +1,6 @@
 {
   "name": "com.archnet.module.localization",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Arch Net Module Localization",
   "description": "This module add a Localization management for your project",
   "unity": "2020.1",
