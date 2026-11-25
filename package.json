@@ -1,22 +1,31 @@
 {
   "name": "com.archnet.module.localization",
-  "version": "1.0.2",
-  "displayName": "Arch Net Module Localization",
-  "description": "This module add a Localization management for your project",
-  "unity": "2020.1",
-  "unityRelease": "0b5",
+  "version": "2.0.0",
+  "displayName": "ArchNet - Localization Module",
+  "description": "Translates your texts from JSON files (Resources/Languages/<code>.json); labels and dropdowns update when the language changes.",
+  "unity": "6000.0",
+  "documentationUrl": "https://archnet-plateform.fr/#ModuleLocalization",
+  "changelogUrl": "https://github.com/ArchNet-1/ModuleLocalization/blob/master/CHANGELOG.md",
+  "licensesUrl": "https://github.com/ArchNet-1/ModuleLocalization/blob/master/LICENSE.md",
+  "dependencies": {
+    "com.unity.ugui": "2.0.0",
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  },
+  "samples": [
+    {
+      "displayName": "Languages",
+      "description": "English and French example files to copy into your project: Resources/Languages/en.json and fr.json.",
+      "path": "Samples~/Languages"
+    }
+  ],
   "keywords": [
-    "Arch",
-    "ArchNet",
-    "Module",
-    "Localization",
-    "Custom"
+    "archnet",
+    "module",
+    "localization"
   ],
   "author": {
-    "name": "Arch Net",
-    "email": "archnetmodule@gmail.com"
-  },
-  "dependencies": {
-    "com.unity.textmeshpro": "3.0.1"
+    "name": "ArchNet",
+    "email": "archnetmodule@gmail.com",
+    "url": "https://archnet-plateform.fr"
   }
 }

@@ -1,7 +1,8 @@
 {
-    "name": "ArchNet.Localization.Editor",
+    "name": "ArchNet.Module.Localization",
+    "rootNamespace": "ArchNet.Module",
     "references": [
-        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+        "Unity.TextMeshPro"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
