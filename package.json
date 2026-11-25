@@ -4,6 +4,7 @@
   "displayName": "ArchNet - Localization Module",
   "description": "Translates your texts from JSON files (Resources/Languages/<code>.json); labels and dropdowns update when the language changes.",
   "unity": "6000.0",
+  "license": "MIT",
   "documentationUrl": "https://archnet-plateform.fr/#ModuleLocalization",
   "changelogUrl": "https://github.com/ArchNet-1/ModuleLocalization/blob/master/CHANGELOG.md",
   "licensesUrl": "https://github.com/ArchNet-1/ModuleLocalization/blob/master/LICENSE.md",

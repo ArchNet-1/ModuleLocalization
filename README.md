@@ -23,4 +23,4 @@ Create `Resources/Languages/en.json` (`{ "key_play": "Play" }`) and one file per
 
 ## License
 
-See [LICENSE.md](LICENSE.md).
+MIT, see [LICENSE.md](LICENSE.md).
