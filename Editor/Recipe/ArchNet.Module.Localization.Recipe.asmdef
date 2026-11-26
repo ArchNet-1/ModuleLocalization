@@ -1,0 +1,30 @@
+{
+    "name": "ArchNet.Module.Localization.Recipe",
+    "rootNamespace": "ArchNet.Module.Editor",
+    "references": [
+        "ArchNet.Module.Localization",
+        "ArchNet.Core.Recipe",
+        "ArchNet.Installer.Editor",
+        "UnityEngine.UI",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "ARCHNET_HUB"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.archnet.hub",
+            "expression": "2.0.0",
+            "define": "ARCHNET_HUB"
+        }
+    ],
+    "noEngineReferences": false
+}

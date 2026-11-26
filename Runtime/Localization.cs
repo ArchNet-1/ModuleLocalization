@@ -51,6 +51,14 @@ namespace ArchNet.Module
         /// <summary>True when the key has a translation in the current or fallback language.</summary>
         public static bool Has(string key) => !string.IsNullOrEmpty(key) && (_texts ??= Load(Language)).ContainsKey(key);
 
+        /// <summary>The name of a language in itself ("Français"), from its file's "language_name" key, else its code.</summary>
+        public static string DisplayName(string code)
+        {
+            var texts = new Dictionary<string, string>();
+            Merge(texts, code);
+            return texts.TryGetValue("language_name", out string name) ? name : code.ToUpperInvariant();
+        }
+
         /// <summary>Switches language, saves the choice and refreshes every localized component.</summary>
         public static void SetLanguage(string code)
         {

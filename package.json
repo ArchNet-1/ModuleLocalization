@@ -1,8 +1,8 @@
 {
   "name": "com.archnet.module.localization",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "displayName": "ArchNet - Localization Module",
-  "description": "Translates your texts from JSON files (Resources/Languages/<code>.json); labels and dropdowns update when the language changes.",
+  "description": "Your game in several languages: JSON files per language (Resources/Languages/<code>.json), labels and dropdowns that follow the language, a language dropdown, and a key editor with CSV import / export (ArchNet Hub > Services > Localization).",
   "unity": "6000.0",
   "license": "MIT",
   "documentationUrl": "https://archnet-plateform.fr/#ModuleLocalization",

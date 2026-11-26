@@ -21,6 +21,12 @@ https://github.com/ArchNet-1/ModuleLocalization.git
 
 Create `Resources/Languages/en.json` (`{ "key_play": "Play" }`) and one file per language, add **Localize Label** to your texts, then `Localization.SetLanguage("fr")`. Import the **Languages** sample for examples.
 
+## Add it to your game (one click)
+
+*ArchNet > Hub > Services > Localization > Add to game* creates `Assets/ArchNet/Localization/Resources/Languages/en.json` and `fr.json` with the texts of the ArchNet screens, makes every matching label of the ArchNet menus follow the language, and adds a **Language** row to the Settings menu (`LanguageDropdown`). Click **Update** after adding screens.
+
+**Open tool**: every key in every language side by side (missing texts outlined), search, add a key or a language (`de.json`…), **Export CSV** for translators and **Import CSV** back, then Save. Give each file a `language_name` key (`"Français"`) for the language list.
+
 ## License
 
 MIT, see [LICENSE.md](LICENSE.md).
