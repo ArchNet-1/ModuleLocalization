@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.1.1] - 2026-11-26
+
+### Fixed
+- The Language dropdown follows a language changed from code (`Localization.SetLanguage`); it used to keep showing the previous one.
+
 ## [2.1.0] - 2026-11-26
 
 ### Added

@@ -3,6 +3,7 @@
     "rootNamespace": "ArchNet.Module.Tests",
     "references": [
         "ArchNet.Module.Localization",
+        "Unity.TextMeshPro",
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner"
     ],

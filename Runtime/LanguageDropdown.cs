@@ -31,7 +31,13 @@ namespace ArchNet.Module
             _codes = Localization.AvailableLanguages.ToList();
             _dropdown.ClearOptions();
             _dropdown.AddOptions(_codes.Select(Localization.DisplayName).ToList());
-            _dropdown.SetValueWithoutNotify(Mathf.Max(0, _codes.IndexOf(Localization.Language)));
+            ShowCurrentLanguage();
+            // Screens fade in and out instead of being disabled: follow changes made from code too.
+            Localization.LanguageChanged += ShowCurrentLanguage;
         }
+
+        void OnDisable() => Localization.LanguageChanged -= ShowCurrentLanguage;
+
+        void ShowCurrentLanguage() => _dropdown.SetValueWithoutNotify(Mathf.Max(0, _codes.IndexOf(Localization.Language)));
     }
 }
